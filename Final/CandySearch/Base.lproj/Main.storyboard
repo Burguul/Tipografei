@@ -183,6 +183,6 @@
     </scenes>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
-        <image name="Inline-Logo" width="300" height="100"/>
+        <image name="Inline-Logo" width="164" height="49"/>
     </resources>
 </document>

@@ -34,7 +34,7 @@ struct Candy: Decodable {
   
   enum Category: Decodable {
     case all
-    case chocolate
+    case descricao
     case hard
     case other
   }
@@ -48,7 +48,7 @@ extension Candy.Category: RawRepresentable {
   init?(rawValue: RawValue) {
     switch rawValue {
     case "All": self = .all
-    case "Chocolate": self = .chocolate
+    case "Descricão dos Tipos": self = .descricao
     case "Hard": self = .hard
     case "Other": self = .other
     default: return nil
@@ -58,7 +58,7 @@ extension Candy.Category: RawRepresentable {
   var rawValue: RawValue {
     switch self {
     case .all: return "All"
-    case .chocolate: return "Chocolate"
+    case .descricao: return "Descrição dos Tipos"
     case .hard: return "Hard"
     case .other: return "Other"
     }
