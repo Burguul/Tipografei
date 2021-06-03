@@ -48,7 +48,7 @@ extension Candy.Category: RawRepresentable {
   init?(rawValue: RawValue) {
     switch rawValue {
     case "All": self = .all
-    case "Descricão dos Tipos": self = .descricao
+    case "Descritivo": self = .descricao
     case "Hard": self = .hard
     case "Other": self = .other
     default: return nil
@@ -58,7 +58,7 @@ extension Candy.Category: RawRepresentable {
   var rawValue: RawValue {
     switch self {
     case .all: return "All"
-    case .descricao: return "Descrição dos Tipos"
+    case .descricao: return "Descritivo"
     case .hard: return "Hard"
     case .other: return "Other"
     }
