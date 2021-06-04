@@ -47,7 +47,7 @@ class MasterViewController: UIViewController {
     // 2
     searchController.obscuresBackgroundDuringPresentation = false
     // 3
-    searchController.searchBar.placeholder = "Search Candies"
+    searchController.searchBar.placeholder = "Quer buscar TIPO o quê?"
     // 4
     navigationItem.searchController = searchController
     // 5

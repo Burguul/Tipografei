@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Anatomia.png",
+      "filename" : "espac (1).png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Anatomia2x.png",
+      "filename" : "espac600 (1).png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Anatomia@3x.png",
+      "filename" : "espace900 (1).png",
       "idiom" : "universal",
       "scale" : "3x"
     }

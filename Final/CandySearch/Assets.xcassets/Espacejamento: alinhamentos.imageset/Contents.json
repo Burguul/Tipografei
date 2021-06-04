@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Anatomia.png",
+      "filename" : "espacej300.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Anatomia2x.png",
+      "filename" : "espacej600.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Anatomia@3x.png",
+      "filename" : "espacej900.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
