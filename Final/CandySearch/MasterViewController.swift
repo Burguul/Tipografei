@@ -103,7 +103,7 @@ class MasterViewController: UIViewController {
   func filterContentForSearchText(_ searchText: String,
                                   category: Candy.Category? = nil) {
     filteredCandies = candies.filter { (candy: Candy) -> Bool in
-      let doesCategoryMatch = category == .all || candy.category == category
+      let doesCategoryMatch = category == .todos || candy.category == category
       
       if isSearchBarEmpty {
         return doesCategoryMatch
